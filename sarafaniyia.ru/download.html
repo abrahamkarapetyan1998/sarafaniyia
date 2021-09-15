@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" href="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title> Сарафания - Загрузить
+    </title>
+  </head>
+  <body>
+    <div class="col-12" id="container">
+<header class="col-12" id="header">    
+  <div class="header-wrapper col-12"> 
+    <div class="navbar">
+      <div class="navbar-button">
+        <div class="navbar-button-wrapper"><span class="navbar-menu-icon"></span>
+          <p class="navbar-menu-text">Меню</p>
+        </div>
+      </div>
+      <nav class="navbar-wrapper col-12">
+        <div><a class="navbar-private-cab" href="https://sarafaniyia.ru/site/login"> <span>личный кабинет</span></a></div>
+      </nav>
+    </div>
+    <div class="navigation">
+      <div class="navigation-wrapper col-12">
+        <div class="logo-wrapper"><a class="logo" href="http://xn--80aaa6ayapf1a6h.xn--p1ai/"></a></div>
+        <div class="toolbar">
+          <div class="toolbar-wrapper col-12">
+            <div class="social col-2">
+              <div class="social-wrapper">
+                <div><a href="http://xn--80aaa6ayapf1a6h.xn--p1ai/">
+                    <div class="social-facebook"></div></a></div>
+                <div><a target="_blank" href="https://vk.com/public161133988">
+                    <div class="social-vk">             </div></a></div>
+                <div><a target="_blank" href="https://ok.ru/group/55603651543064">
+                    <div class="social-ok">             </div></a></div>                    
+                <div><a target="_blank" href="https://www.instagram.com/besplatno_v_barnaule/"> 
+                    <div class="social-instagram"></div></a></div>
+              </div>
+            </div>
+            <div class="market col-6"><a class="market-playmarket" href="https://play.google.com/store/apps/details?id=ru.sarafaniyia.app&amp;hl=ru"></a><a class="market-appstore" href="https://itunes.apple.com/us/app/%D1%81%D0%B0%D1%80%D0%B0%D1%84%D0%B0%D0%BD%D0%B8%D1%8F/id1296560169?mt=8"></a><span class="market-qr"></span></div>
+            <div class="call-order col-4">
+              <div class="call-order-btn">
+                <p>заказать звонок</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+      <content class="col-12" id="content-download">
+        <div class="download-wrapper col-12">
+          <div class="download-logo-wrapper">
+            <div class="download-logo"></div>
+          </div>
+          <div class="download-text">
+            <p class="download-text-name">Сарафания</p>
+            <p class="download-text-content">Загрузить приложение</p>
+          </div>
+          <div class="download-market"><a href="https://play.google.com/store/apps/details?id=ru.sarafaniyia.app&amp;hl=ru"><img class="download-playmarket" src="images/google.png"></a><a href="https://itunes.apple.com/us/app/%D1%81%D0%B0%D1%80%D0%B0%D1%84%D0%B0%D0%BD%D0%B8%D1%8F/id1296560169?mt=8"><img class="download-appstore" src="images/app_store_icon.png"></a></div>
+        </div>
+      </content>
+<div class="call-order-dialog-blocker"></div>
+<div class="call-order-dialog">
+  <div class="dialog-wrapper">
+    <div class="call-dialog-close dialog-close"></div>
+    <div class="dialog-header">
+      <h2>Заказать звонок</h2>
+    </div>
+    <form id="callOrderForm">
+      <div>
+        <p>Номер телефона*</p>
+        <p>
+          <input id="dialog-phone" name="phone" type="text" placeholder="+7 999 99-99-999">
+        </p>
+      </div>
+      <div>
+        <p>Имя (по желанию)</p>
+        <p>
+          <input id="dialog-name" name="name" type="text">
+        </p>
+      </div>
+      <div>
+        <p>Почта (по желанию)</p>
+        <p>
+          <input id="dialog-email" name="email" type="text">
+        </p>
+      </div>
+      <div>
+        <p>Комментарий (по желанию)</p>
+        <p>
+          <textarea id="dialog-comment" name="comment" cols="30" rows="10"></textarea>
+        </p>
+      </div>
+      <div class="require-fields">
+        <p>*-обязательные поля для заполнения</p>
+        <p class="invalidInput">Заполните обязательные поля       </p>
+        <p class="sendingError">Ошибка отправки формы                 </p>
+      </div>
+      <p>
+        <input class="send" id="sendCallOrderForm" type="submit" value="отправить заявку">
+      </p>
+    </form>
+  </div>
+</div>
+<div class="qr-dialog">
+  <div class="qr-dialog-wrapper">
+    <div class="qr-dialog-close"></div>
+    <div class="dialog-content"><img src="images/qr_code.png"></div>
+  </div>
+</div>
+<div class="call-order-dialog-blocker"></div>
+<div class="order-success-dialog">
+  <div class="dialog-wrapper">
+    <div class="success-dialog-close dialog-close"></div>
+    <div class="dialog-header">
+      <h2>Ваша заявка успешно отправлена</h2>
+    </div>
+  </div>
+</div>
+    </div>
+    <script src="bundle.js"></script>
+  </body>
+</html>

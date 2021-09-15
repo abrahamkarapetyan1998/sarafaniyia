@@ -1,0 +1,21 @@
+# use mod_rewrite for pretty URL support
+RewriteEngine on
+
+# If a directory or a file exists, use the request directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Otherwise forward the request to index.php
+RewriteRule . index.php
+
+AddDefaultCharset utf-8
+php_value default_charset utf-8
+
+SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1
+
+# supress php errors
+php_flag display_startup_errors off
+php_flag display_errors off
+php_flag html_errors off
+php_value docref_root 0
+php_value docref_ext 0
